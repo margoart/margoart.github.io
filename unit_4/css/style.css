@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
 body{
 	color: #123e54;
 	background-color: #c0ccd1;
@@ -6,10 +8,21 @@ body{
 }
 h1{
 	color: #4819e3;
-	font-family: "Noto Sans JP", sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 74px;
 }
-.parent {
+h2{
+	color: #123e54;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+}
+p{
+	font-family: Spartan, sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2.5em;
+}
+.parent{
 	text-align: center;
 	}
 	.parent > ul {
