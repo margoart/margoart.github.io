@@ -3,7 +3,7 @@
 body{
 	color: #123e54;
 	background-color: #c0ccd1;
-	font-family: "Spartan", sans-serif;
+	font-family: Georgia, sans-serif;
 	text-align: center;
 }
 h1{
@@ -21,6 +21,11 @@ p{
 	font-size: 18px;
 	line-height: 1.5em;
 	margin: 2.5em;
+}
+ul{
+	font-family: Play, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
 }
 .parent{
 	text-align: center;
