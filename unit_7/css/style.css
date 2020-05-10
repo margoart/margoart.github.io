@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+body{
+	color: #000000;
+	background-color: #ffffff;
+	font-family: 'Spartan', sans-serif;
+	text-align: center;
+}
+header {
+	background-color: none;
+	padding: 20px;
+}
+nav {
+	background-color: #84eaf0;
+	font-family; Arial; sans-serif;
+	padding: 20px;
+	font: black;
+}
+nav a {
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	width: 200px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+a:hover {
+	background-color: #aaaaaa;
+}
+#two_column {
+	background-color: #ffffff;
+	border: 1px black solid
+	padding 20px;
+}
+#left {
+	background-color: #42cef5;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+#right {
+	background-color: #42cef5;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+footer {
+	background-color: #d3d3d3;
+	border: 1px black solid;
+	padding: 20px;
+	clear: both;
+}
+div {
+	background-color: #ffffff;
+	padding: 20px;
+}
+h1{
+	color: #4819e3;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 74px;
+}
+h2{
+	color: #123e54;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+}
+h3{
+	color: #123e54;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+}
+p{
+	font-family: 'Spartan', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2.5em;
+}
+#slogan{
+	font-weight: bold;
+	font-style: italic;
+}
