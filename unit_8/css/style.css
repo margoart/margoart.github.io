@@ -5,24 +5,26 @@ body{
 	background-color: #ffffff;
 	font-family: 'Spartan', sans-serif;
 	text-align: center;
+	font-size: 16px;
 }
 header {
 	background-color: none;
 	padding: 20px;
 }
 nav {
-	background-color: #84eaf0;
 	font-family; Arial; sans-serif;
-	padding: 20px;
+	padding: 1em;
+	float: center;
 	font: black;
+	width: 100%;
 }
 nav a {
-	background-color: white;
+	background-color: #d3d3d3;
 	color: black;
 	text-decoration: none;
-	display: inline-block;
-	width: 200px;
-	padding: 10px;
+	float: center;
+	width: 10%;
+	padding: 1em 3em;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -45,21 +47,22 @@ a:hover {
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
-	width: 30%;
+	width: 70%;
+	margin: 1em;
 }
 #right {
 	background-color: #42cef5;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 62%;
+	width: 22%;
+	margin: 1em;
 }
-
 footer {
 	background-color: #d3d3d3;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 1em;
 	clear: both;
+	text-align: center;
 }
 div {
 	background-color: #ffffff;
@@ -68,17 +71,18 @@ div {
 h1{
 	color: #4819e3;
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size: 74px;
+	font-size: 3em;
+	margin: .5em;
 }
 h2{
 	color: #123e54;
 	font-family: Arial, sans-serif;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 h3{
 	color: #123e54;
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 50px;
+	font-size: 2em;
 }
 p{
 	font-family: 'Spartan', sans-serif;
@@ -89,4 +93,26 @@ p{
 #slogan{
 	font-weight: bold;
 	font-style: italic;
+}
+
+@media screen and (max-width: 1008px) {
+	nav {
+		float: none;
+		height: auto;
+	}
+}
+@media screen and (max-width: 1008px) {
+	nav a {
+	float: none;
+	display: inline-block;
+	padding: 1em 1em;
+	font-size: .75em;
+	}
+}
+@media screen and (max-width: 770px) {
+	nav a {
+	float: center;
+	display: block;
+	padding: 1em 1em;
+	font-size: .75em;
 }
