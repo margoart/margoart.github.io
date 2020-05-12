@@ -37,27 +37,6 @@ nav a {
 a:hover {
 	background-color: #aaaaaa;
 }
-#two_column {
-	background-color: #ffffff;
-	border: 1px black solid
-	padding 20px;
-}
-#left {
-	background-color: #42cef5;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 70%;
-	margin: 1em;
-}
-#right {
-	background-color: #42cef5;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 22%;
-	margin: 1em;
-}
 footer {
 	background-color: #d3d3d3;
 	padding: 1em;
