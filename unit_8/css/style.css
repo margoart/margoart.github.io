@@ -92,7 +92,7 @@ p{
 	nav a {
 	float: center;
 	display: block;
-	padding: 1em 2.5em;
+	padding: 1em 4.5em 1em 3em;
 	font-size: .75em;
 }
 @media screen and (max-width: 1883px) {
